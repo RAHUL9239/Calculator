@@ -1,0 +1,51 @@
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github
+$  git config --global user.name "Rahul Hunnur"
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github
+$  git config --global user.email "rahulhunnur9239@gmail.com"
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github
+$ touch .gitignore
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github
+$ git init
+Initialized empty Git repository in C:/Users/HP/OneDrive/Desktop/Github/.git/
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github (master)
+$ git add .
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 0386b1c] Initial commit
+ 10 files changed, 135 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Calculator/.classpath
+ create mode 100644 Calculator/.project
+ create mode 100644 Calculator/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Calculator/bin/com/Calculator.class
+ create mode 100644 Calculator/bin/com/Calculatorlmpl.class
+ create mode 100644 Calculator/bin/com/Solution.class
+ create mode 100644 Calculator/src/com/Calculator.java
+ create mode 100644 Calculator/src/com/Calculatorlmpl.java
+ create mode 100644 Calculator/src/com/Solution.java
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github (master)
+$ git remote add origin https://github.com/RAHUL9239/Calculator.git
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 3.47 KiB | 444.00 KiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RAHUL9239/Calculator.git
+ * [new branch]      master -> master
+
+HP@LAPTOP-K84DUUK2 MINGW64 ~/OneDrive/Desktop/Github (master)
+$
+
+
+
+
